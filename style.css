@@ -1,3 +1,10 @@
-.navigation {
-  
+.navbar {
+  width: 20%;
+  padding: 2.5%;
+  background-color: blue;
+  color: white;
+}
+
+#header {
+  width: 100%;
 }
