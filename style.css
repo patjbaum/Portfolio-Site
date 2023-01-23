@@ -1,20 +1,29 @@
 
 #header {
   padding: 2.5% 5% 2.5% 1%;
-  background-color: blue;
+  background-color: rgba(0,1,77);
 }
 
 body {
-  background: rgba(100, 100, 100);
+  background: rgba(50, 50, 50);
+  color: rgba(225,225,225);
 }
 
 .navbar {
   width: 20%;
   padding: 2.5% 5% 2.5% 5%;
-  background-color: blue;
+  background-color: rgba(0,1,77);
   color: white;
 }
 
 .navbar:hover {
-  background-color: violet;
+  background-color: rgba(57,16,110);
+}
+
+.navbar:active {
+  background-color: rgba(76,16,156);
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
 }
